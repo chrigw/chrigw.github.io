@@ -90,13 +90,4 @@ def update_map(selection):
 
 # Server starten
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=int(os.environ.get('PORT', 8050)))
-
-# # App Start
-# if __name__ == "__main__":
-#     app.run(
-#         debug=False,
-#         dev_tools_ui=False,
-#         dev_tools_props_check=False,
-#         dev_tools_serve_dev_bundles=False
-#     )
+    app.run(debug=False, host='0.0.0.0', port=int(os.environ.get('PORT', 8050)))
