@@ -24,8 +24,8 @@ MAP_BASE_URL = "https://chrigw.github.io"
 # Mapping für Radio-Auswahl
 map_files = {
     "Bundesländer": "dashboard_bundeslaender.html",
+    "Wasserstraßen": "dashboard_wasserstrassen.html",
     "Häfen": "deutschland_haefen_karte.html",
-    "Wasserstraßen": "deutschland_wasserstrassen_karte.html"
 }
 
 # Logo-URL und Link
