@@ -57,7 +57,7 @@ app.layout = html.Div([
 
     html.P(
         "Diese interaktive Karte bietet einen Überblick über Bunkervorschriften in Deutschland. "
-        "Wählen Sie eine Kategorie, um spezifische Regelungen für Bundesländer, Häfen oder Wasserstraßen anzuzeigen.",
+        "Wählen Sie eine Kategorie, um spezifische Regelungen für Bundesländer, Wasserstraßen oder Häfen anzuzeigen. Durch Klicken auf ein Bundesland erhalten Sie Informationen zu den entsprechenden Bunkerverordnungen.",
         style={"fontFamily": font_family, "fontSize": "18px", "lineHeight": "1.6", "color": color_palette[2]}
     ),
 
